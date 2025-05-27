@@ -1,4 +1,4 @@
-"""
+""" 
 CP1404/CP5632 - Practical
 Answer the following questions:
 1. When will a ValueError occur? When I input a non-integer (e.g., a decimal or string) as numerator or denominator.
