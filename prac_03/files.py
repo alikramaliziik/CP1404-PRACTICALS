@@ -1,5 +1,5 @@
 """
-File handling exercises
+File handling exercises 
 """
 
 # 1. Write user's name to name.txt
