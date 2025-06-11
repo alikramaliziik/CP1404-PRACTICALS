@@ -1,5 +1,5 @@
 """
-CP1404/CP5632 Practical
+CP1404/CP5632 Practical 
 Quick Pick Lottery Ticket Generator
 """
 import random
