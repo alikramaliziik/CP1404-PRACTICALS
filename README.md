@@ -11,7 +11,7 @@ I am Akram Kasozi a student at James Cook University pursuing a Bachelor's degre
 - **Modular Design**: Breaking code into smaller, reusable functions and classes, as seen in Practicals 2 and 6, reduces complexity and enhances code organization.
 - **Error Handling**: Implementing exception handling (Practical 3) ensures robust code by gracefully managing invalid inputs, making programs more reliable.
 
-## Links
+## Programming Patterns Links
 - [Decision Structures](https://github.com/CP1404/Starter/wiki/Programming-Patterns#decision-structures)
 - [If No Else](https://github.com/CP1404/Starter/wiki/Programming-Patterns#if-no-else)
 - [Boundary Conditions](https://github.com/CP1404/Starter/wiki/Programming-Patterns#boundary-conditions)
