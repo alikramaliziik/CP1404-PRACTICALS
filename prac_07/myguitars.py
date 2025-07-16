@@ -1,10 +1,3 @@
-"""
-CP1404/CP5632 Practical
-Program to manage a guitar collection by reading from and writing to a CSV file.
-Estimated time: 30 minutes
-Actual time: 35 minutes
-"""
-
 import csv
 from guitar import Guitar
 
@@ -57,11 +50,13 @@ def main():
 
     # Add new guitars
     print("\nEnter new guitars (blank name to finish):")
-    while True:
+    adding_guitars = True
+    while adding_guitars:
         guitar = get_new_guitar()
         if guitar is None:
-            break
-        guitars.append(guitar)
+            adding_guitars = False
+        else:
+            guitars.append(guitar)
 
     # Display sorted guitars
     display_guitars(guitars)
