@@ -1,0 +1,29 @@
+BoxLayout:
+    orientation: 'vertical'
+    BoxLayout:
+        orientation: 'horizontal'
+        TextInput:
+            id: input_number
+            text: '4.1'
+            font_size: 48
+            multiline: False
+            size_hint_x: 0.3
+        Button:
+            text: 'Square'
+            font_size: 48
+            background_color: (0.5, 0.5, 0.5, 1)
+            on_press: app.handle_calculate(input_number.text)
+            size_hint_x: 0.4
+        Label:
+            id: output_label
+            text: '16.81'
+            font_size: 48
+            color: (1, 0.75, 0.8, 1)  # Pink color
+            size_hint_x: 0.3
+    BoxLayout:
+        orientation: 'horizontal'
+        Label:
+            text: 'Enter a number and press "Square"'
+            color: (1, 1, 1, 1)
+            size_hint_y: None
+            height: 40
